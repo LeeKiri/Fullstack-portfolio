@@ -1,0 +1,112 @@
+body {
+  max-width: 100%;
+  background-position: center; 
+  background-size: cover;
+  background-image: linear-gradient(to bottom left, #1f5a77, #90afc5);
+  max-height: 800px;
+}
+#navbar {
+  background-color: #2A3132 !important;
+}
+.navbar-brand {
+    font-family: "Noto Serif", serif;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.nav-item {
+    font-family: "Asap", sans-serif;
+}
+#bannerTitle {
+    margin-top: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: ivory;
+}
+#bannerP {
+    color: ivory;
+    font-family: "Noto Serif", serif;
+    font-size: large;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+#mainBannerP {
+    color: ivory;
+    font-family: "Noto Serif", serif;
+    font-size: large;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+}
+#quoteP {
+    color: ivory;
+    font-family: "Asap", sans-serif;
+    font-size: x-large;
+    font-style: italic;
+}
+#referenceP {
+    color: ivory;
+    font-size: x-large;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+}
+#imgHeadshot {
+    border-radius: 50%;
+    width: 200px;
+    float: right;
+    margin-top: 80px;
+}
+#list{
+    padding-top: 100px;
+    padding-left: 200px;
+    color: ivory;
+    font-size: 30px;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: ivory;
+}
+.vl{
+    border-left: 6px solid #1f5a77;
+    height: 150px;
+    padding-left: 10px;
+}
+#footer{
+    border-top: 5px solid #1f5a77;
+    background-color: #2A3132 !important;
+}
+
+/*media queries*/
+@media screen and (max-width: 768px) {
+    body {
+        max-height: 1200px;
+    }
+    #imgHeadshot {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    #list{
+        padding-left: 200px;
+    }
+    .vl {
+      height: 130px;
+    }
+    .navbar-brand {
+        padding-left: 30px !important
+    };
+}
+@media screen and (max-width: 540px) {
+    .navbar-brand {
+        padding-left: 20px !important;
+    }
+    #list{
+        padding-left: 60px;
+    }
+}
+
