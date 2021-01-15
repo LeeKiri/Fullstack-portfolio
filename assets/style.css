@@ -21,6 +21,7 @@ body {
     font-weight: 700;
     margin-bottom: 20px;
     color: ivory;
+    letter-spacing: .1rem;
 }
 #bannerP {
     color: ivory;
