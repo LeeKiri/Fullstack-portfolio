@@ -135,6 +135,7 @@ a {
 .imgCol img {
   height: 350px;
   max-width: 100%;
+  opacity: 50%;
 }
 
 /*media queries*/
