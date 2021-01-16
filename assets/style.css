@@ -80,6 +80,26 @@ a{
     background-color: #2A3132 !important;
 }
 
+/* portfolio page CSS */
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: #90AFC5 !important;
+    border: #90AFC5 !important;
+}
+button:hover {
+    background-color: #a9cae2  !important;
+}
+#modalLink{
+    color: black;
+}
+#modalLink:hover{
+    color: #336B87;
+}
+
+
 /*media queries*/
 @media screen and (max-width: 768px) {
     body {
