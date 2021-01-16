@@ -1,133 +1,171 @@
+/* all pages */
 body {
   max-width: 100%;
-  background-position: center; 
+  background-position: center;
   background-size: cover;
   background-image: linear-gradient(to bottom left, #1f5a77, #90afc5);
   max-height: 800px;
 }
 #navbar {
-  background-color: #2A3132 !important;
+  background-color: #2a3132 !important;
 }
 .navbar-brand {
-    font-family: "Noto Serif", serif;
-    font-size: xx-large;
-    font-weight: 700;
+  font-family: "Noto Serif", serif;
+  font-size: xx-large;
+  font-weight: 700;
 }
 .nav-item {
-    font-family: "Asap", sans-serif;
+  font-family: "Asap", sans-serif;
+}
+#blackBtn {
+  background-color: black;
 }
 #bannerTitle {
-    margin-top: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: ivory;
-    letter-spacing: .1rem;
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: ivory;
+  letter-spacing: 0.1rem;
 }
 #bannerP {
-    color: ivory;
-    font-family: "Noto Serif", serif;
-    font-size: large;
-    align-items: center;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
+  color: ivory;
+  font-family: "Noto Serif", serif;
+  font-size: large;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }
 #mainBannerP {
-    color: ivory;
-    font-family: "Noto Serif", serif;
-    font-size: large;
-    align-items: center;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
-    line-height: 1.6;
+  color: ivory;
+  font-family: "Noto Serif", serif;
+  font-size: large;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
 }
 #quoteP {
-    color: ivory;
-    font-family: "Asap", sans-serif;
-    font-size: x-large;
-    font-style: italic;
+  color: ivory;
+  font-family: "Asap", sans-serif;
+  font-size: x-large;
+  font-style: italic;
 }
 #referenceP {
-    color: ivory;
-    font-size: x-large;
-    font-family: "Asap", sans-serif;
-    font-weight: 500;
+  color: ivory;
+  font-size: x-large;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
 }
 #imgHeadshot {
-    border-radius: 50%;
-    width: 200px;
-    float: right;
-    margin-top: 80px;
+  border-radius: 50%;
+  width: 200px;
+  float: right;
+  margin-top: 80px;
 }
-#list{
-    padding-top: 100px;
-    padding-left: 200px;
-    color: ivory;
-    font-size: 30px;
-    font-family: "Asap", sans-serif;
-    font-weight: 500;
+#list {
+  padding-top: 100px;
+  padding-left: 200px;
+  color: ivory;
+  font-size: 30px;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
 }
-a{
-    text-decoration: none;
-    color: ivory;
+a {
+  text-decoration: none;
+  color: ivory;
 }
-.vl{
-    border-left: 6px solid #1f5a77;
-    height: 150px;
-    padding-left: 10px;
+.vl {
+  border-left: 6px solid #1f5a77;
+  height: 150px;
+  padding-left: 10px;
 }
-#footer{
-    border-top: 5px solid #1f5a77;
-    background-color: #2A3132 !important;
+#footer {
+  border-top: 5px solid #1f5a77;
+  background-color: #2a3132 !important;
 }
 
 /* portfolio page CSS */
-.card{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-button{
-    background-color: #90AFC5 !important;
-    border: #90AFC5 !important;
+#portfolioBtn {
+  background-color: #90afc5 !important;
+  border: #90afc5 !important;
 }
-button:hover {
-    background-color: #a9cae2  !important;
+#portfolioBtn:hover {
+  background-color: #a9cae2 !important;
 }
-#modalLink{
-    color: black;
+#modalLink {
+  color: black;
 }
-#modalLink:hover{
-    color: #336B87;
+#modalLink:hover {
+  color: #336b87;
 }
 
+/* contact page */
+#contactForm {
+  color: ivory;
+  height: 350px;
+  background-color: #336b87;
+  padding: 50px 20px;
+  font-size: large;
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+  background-image: linear-gradient(to top right, #1f5a77, #90afc5);
+}
+#emailBtn {
+  background-color: #90afc5 !important;
+  border: #90afc5 !important;
+}
+#emailBtn:hover {
+  background-color: #a9cae2 !important;
+}
+#sideImg{
+    max-width: 100%;
+    height:350px;
+    margin: 0px;
+}
+#contactCol{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 /*media queries*/
 @media screen and (max-width: 768px) {
-    body {
-        max-height: 1200px;
-    }
-    #imgHeadshot {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-    }
-    #list{
-        padding-left: 200px;
-    }
-    .vl {
-      height: 130px;
-    }
-    .navbar-brand {
-        padding-left: 30px !important
-    };
+  body {
+    max-height: 1200px;
+  }
+  #imgHeadshot {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  #list {
+    padding-left: 200px;
+  }
+  .vl {
+    height: 130px;
+  }
+  .navbar-brand {
+    padding-left: 30px !important;
+  }
 }
 @media screen and (max-width: 540px) {
-    .navbar-brand {
-        padding-left: 20px !important;
-    }
-    #list{
-        padding-left: 60px;
-    }
-}
+  .navbar-brand {
+    padding-left: 20px !important;
+  }
+  #list {
+    padding-left: 60px;
+  }
+  .card {
+    margin-left: 30px;
+  }
+  #sideImg{
+    height: 200px;
+    width: 375px;
 
+}
+}

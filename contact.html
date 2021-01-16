@@ -40,6 +40,43 @@
         </nav>
     </header>
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-lg-4" id="contactCol">
+                    <img id="sideImg" class="d-md-none d-lg-block" src="assets/scrum.jpg">
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-4" id="contactCol">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="InputSubject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-control" aria-label="Name"
+                                aria-describedby="basic-addon2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="body" rows="3"></textarea>
+                        </div>
+                        <button type="button" id="emailBtn" class="btn btn-primary">Send Email</button>
+                    </form>
+                </div>
+                <div class="col-md-2 col-lg-4" id="contactCol">
+                    <img id="sideImg" class="d-md-none d-lg-block" src="assets/computer.jpg">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" id="contactCol">
+                    <img id="sideImg" class="d-none d-md-block d-lg-none" src="assets/scrum.jpg">
+
+                </div>
+                <div class="col-md-6" id="contactCol">
+                    <img id="sideImg" class="d-none d-md-block d-lg-none" src="assets/computer.jpg">
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer fixed-bottom">
         <div class="card-footer bg-secondary footer-font-style footer-position" id="footer">
@@ -47,10 +84,15 @@
         </div>
     </footer>
 
-    <script src="assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="assets/script.js"></script>
+
 </body>
 
 </html>

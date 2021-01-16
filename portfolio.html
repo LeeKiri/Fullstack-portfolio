@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
             <div class="container-fluid" id="navCorrect">
                 <a class="navbar-brand" href="#">Lee Templeton</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-sm-12" >
                 <div class="card" style="width: 18rem;">
                     <img src="assets/screenshots/reb-l.PNG" class="card-img-top" alt="project screenshot">
                     <div class="card-body">
@@ -53,7 +53,7 @@
                         <p class="card-text">An app to help locals rediscover their local community and boost Melbournes
                             economy post Covid19 lockdown.</p>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#modalMelbourneReboot" data-bs-name="Melbourne Reboot">
+                            data-bs-target="#modalMelbourneReboot" data-bs-name="Melbourne Reboot" id="portfolioBtn">
                             View More
                         </button>
 
@@ -66,7 +66,7 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="staticBackdropLabel">Melbourne Reboot</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" id="portfolioBtn"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -98,11 +98,11 @@
                                         <h6><a href="https://h-mai.github.io/APIproject/index.html" target="_blank"
                                                 title="Go to profile" id="modalLink">Visit Project</a></h6>
                                         <h6>Responsive Mobile First Design</h6>
-                                        <img src="assets/screenshots/reb-m.PNG">
-                                        <img src="assets/screenshots/reb-s.PNG">
+                                        <img src="assets/screenshots/reb-m.PNG" class="mw-100">
+                                        <img src="assets/screenshots/reb-s.PNG" class="mw-100">
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary"
+                                        <button type="button" class="btn btn-primary" id="portfolioBtn"
                                             data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -114,13 +114,13 @@
 
             <!-- card two -->
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-sm-12" >
                 <div class="card" style="width: 18rem;">
                     <img src="assets\screenshots\quiz-lg.png" class="card-img-top" alt="daily planner screenshot">
                     <div class="card-body">
                         <h5 class="card-title">Javascript Quiz</h5>
                         <p class="card-text">A timed multiple choice quiz about javascript.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalQuiz"
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalQuiz" id="portfolioBtn"
                             data-bs-name="JavaScript Quiz">
                             View More
                         </button>
@@ -133,7 +133,7 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="staticBackdropLabel">Javascript Quiz</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" id="portfolioBtn"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -165,10 +165,10 @@
                                                 title="Go to profile" id="modalLink">Visit Project</a></h6>
                                         <h6>Responsive Mobile First Design</h6>
                                         <img src="assets/screenshots/quiz-md.png" class="mw-100">
-                                        <img src="assets/screenshots/quiz- sm.png">
+                                        <img src="assets/screenshots/quiz- sm.png" class="mw-100">
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary"
+                                        <button type="button" class="btn btn-primary" id="portfolioBtn"
                                             data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -181,14 +181,14 @@
 
             <!-- card three -->
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-sm-12" >
                 <div class="card" style="width: 18rem;">
                     <img src="assets\screenshots\planner.png" class="card-img-top" alt="screenshot of online quiz">
                     <div class="card-body">
                         <h5 class="card-title">Work Day Scheduler</h5>
                         <p class="card-text">An app to plan your busy work day.</p>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#dailyPlanner" data-bs-name="Daily Planner">
+                            data-bs-target="#dailyPlanner" data-bs-name="Daily Planner" id="portfolioBtn"> 
                             View More
                         </button>
                         <div class="modal fade" id="dailyPlanner" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -197,7 +197,7 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="staticBackdropLabel">Work Day Scheduler</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" id="portfolioBtn"
                                             aria-label="Close"></button>
                                     </div>
 
@@ -230,10 +230,10 @@
                                                 title="Go to profile" id="modalLink">Visit Project</a></h6>
                                         <h6>Responsive Mobile First Design</h6>
                                         <img src="assets/screenshots/planner-m.png" class="mw-100">
-                                        <img src="assets/screenshots/planner-s.PNG">
+                                        <img src="assets/screenshots/planner-s.PNG" class="mw-100">
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary"
+                                        <button type="button" class="btn btn-primary" id="portfolioBtn"
                                             data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -254,7 +254,6 @@
         </div>
     </footer>
 
-    <script src="assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
