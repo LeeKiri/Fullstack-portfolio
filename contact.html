@@ -43,11 +43,12 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-lg-4" id="contactCol">
-                    <img id="sideImg" class="d-md-none d-lg-block" src="assets/scrum.jpg">
+                <div class="col-md-2 col-lg-4 imgCol">
+                    <img class="d-none d-lg-block" src="assets/scrum.jpg">
+                    <img id="smImg" class="d-sm-block d-md-none d-lg-none contactCol" src="assets/resize/scrum-s.jpg">
                 </div>
-                <div class="col-sm-12 col-md-8 col-lg-4" id="contactCol">
-                    <form id="contactForm">
+                <div class="col-sm-12 col-md-8 col-lg-4 contactCol">
+                    <form id="contactForm" class="contactCol">
                         <div class="mb-3">
                             <label for="InputSubject" class="form-label">Subject</label>
                             <input type="text" id="subject" class="form-control" aria-label="Name"
@@ -60,18 +61,20 @@
                         <button type="button" id="emailBtn" class="btn btn-primary">Send Email</button>
                     </form>
                 </div>
-                <div class="col-md-2 col-lg-4" id="contactCol">
-                    <img id="sideImg" class="d-md-none d-lg-block" src="assets/computer.jpg">
+                <div class="col-md-2 col-lg-4 imgCol">
+                    <img class="d-none d-lg-block" src="assets/computer.jpg">
+                    <img id="smImg" class="d-sm-block d-md-none d-lg-none contactCol"
+                        src="assets/resize/computer-s.jpg">
 
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6" id="contactCol">
-                    <img id="sideImg" class="d-none d-md-block d-lg-none" src="assets/scrum.jpg">
+                <div class="col-md-6 imgCol">
+                    <img class="d-none d-md-block d-lg-none" src="assets/scrum.jpg">
 
                 </div>
-                <div class="col-md-6" id="contactCol">
-                    <img id="sideImg" class="d-none d-md-block d-lg-none" src="assets/computer.jpg">
+                <div class="col-md-6 imgCol">
+                    <img class="d-none d-md-block d-lg-none" src="assets/computer.jpg">
 
                 </div>
             </div>

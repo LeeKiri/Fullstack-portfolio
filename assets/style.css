@@ -121,14 +121,20 @@ a {
 #emailBtn:hover {
   background-color: #a9cae2 !important;
 }
-#sideImg{
-    max-width: 100%;
-    height:350px;
-    margin: 0px;
+.contactCol {
+  max-width: 100%;
+  /* height:350px; */
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-#contactCol{
-    padding-left: 0px;
-    padding-right: 0px;
+.imgCol {
+  height: 350px;
+  padding: 0;
+}
+.imgCol img {
+  height: 350px;
+  max-width: 100%;
 }
 
 /*media queries*/
@@ -152,6 +158,15 @@ a {
   .navbar-brand {
     padding-left: 30px !important;
   }
+  .imgCol {
+    height: 350px;
+  }
+  .imgCol img {
+    height: 350px;
+  }
+  .contactCol {
+    height: 350px;
+  }
 }
 @media screen and (max-width: 540px) {
   .navbar-brand {
@@ -163,9 +178,18 @@ a {
   .card {
     margin-left: 30px;
   }
-  #sideImg{
+  .imgCol {
     height: 200px;
-    width: 375px;
-
+  }
+  .imgCol img {
+    height: 200px;
+  }
+  #contactForm {
+    height: 375px;
+  }
 }
+@media screen and (min-width: 540px) {
+  .imgCol {
+    height: 350px;
+  }
 }
