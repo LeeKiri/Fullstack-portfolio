@@ -3,8 +3,12 @@ body {
   max-width: 100%;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(to bottom left, #1f5a77, #90afc5);
-  max-height: 800px;
+  background-image: linear-gradient(to top right, #154963, #90afc5);
+  height: 840px;
+  padding-bottom: 100px;
+}
+#homepage {
+  height: 820px;
 }
 #navbar {
   background-color: #2a3132 !important;
@@ -17,17 +21,23 @@ body {
 .nav-item {
   font-family: "Asap", sans-serif;
 }
-#blackBtn {
-  background-color: black;
+#footer {
+  border-top: 5px solid #1f5a77;
+  background-color: #2a3132 !important;
 }
+
+/* Home page */
+
 #bannerTitle {
   margin-top: 30px;
   font-weight: 700;
   margin-bottom: 20px;
   color: ivory;
   letter-spacing: 0.1rem;
+  margin-left: 20px;
 }
 #bannerP {
+  margin-left: 20px;
   color: ivory;
   font-family: "Noto Serif", serif;
   font-size: large;
@@ -36,6 +46,7 @@ body {
   letter-spacing: 0.1rem;
 }
 #mainBannerP {
+  margin-left: 20px;
   color: ivory;
   font-family: "Noto Serif", serif;
   font-size: large;
@@ -45,12 +56,14 @@ body {
   line-height: 1.6;
 }
 #quoteP {
+  margin-left: 20px;
   color: ivory;
   font-family: "Asap", sans-serif;
   font-size: x-large;
   font-style: italic;
 }
 #referenceP {
+  margin-left: 20px;
   color: ivory;
   font-size: x-large;
   font-family: "Asap", sans-serif;
@@ -61,14 +74,20 @@ body {
   width: 200px;
   float: right;
   margin-top: 80px;
+  margin-right: 100px;
 }
 #list {
+  clear: both;
   padding-top: 100px;
-  padding-left: 200px;
+  margin-left: 20px;
   color: ivory;
   font-size: 30px;
   font-family: "Asap", sans-serif;
   font-weight: 500;
+}
+i {
+  padding-left: 15px;
+  padding-right: 10px;
 }
 a {
   text-decoration: none;
@@ -76,12 +95,11 @@ a {
 }
 .vl {
   border-left: 6px solid #1f5a77;
-  height: 150px;
-  padding-left: 10px;
+  height: 200px;
+  margin-left: 20px;
 }
-#footer {
-  border-top: 5px solid #1f5a77;
-  background-color: #2a3132 !important;
+#homeFooter {
+  padding-top: 20px;
 }
 
 /* portfolio page CSS */
@@ -89,9 +107,12 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.card-img-top {
+  height: 190px;
+}
 #portfolioBtn {
-  background-color: #90afc5 !important;
-  border: #90afc5 !important;
+  background-color: #6a9bbe !important;
+  border: #6a9bbe !important;
 }
 #portfolioBtn:hover {
   background-color: #a9cae2 !important;
@@ -104,6 +125,7 @@ a {
 }
 
 /* contact page */
+
 #contactForm {
   color: ivory;
   height: 350px;
@@ -115,15 +137,14 @@ a {
   background-image: linear-gradient(to top right, #1f5a77, #90afc5);
 }
 #emailBtn {
-  background-color: #90afc5 !important;
-  border: #90afc5 !important;
+  background-color: #6a9bbe !important;
+  border: #6a9bbe !important;
 }
 #emailBtn:hover {
   background-color: #a9cae2 !important;
 }
 .contactCol {
   max-width: 100%;
-  /* height:350px; */
   margin: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -138,10 +159,19 @@ a {
   opacity: 50%;
 }
 
-/*media queries*/
+/* media queries */
+
 @media screen and (max-width: 768px) {
   body {
-    max-height: 1200px;
+    max-height: 1500px;
+  }
+  body {
+    height: 3000px;
+    background-image: none !important;
+    background-color:  #1f5a77;
+  }
+  #homepage{
+      height: 1500px;
   }
   #imgHeadshot {
     float: none;
@@ -151,10 +181,12 @@ a {
     margin-top: 20px;
   }
   #list {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   .vl {
-    height: 130px;
+    height: 200px;
+    border-left: 6px solid ivory;
+
   }
   .navbar-brand {
     padding-left: 30px !important;
@@ -173,8 +205,22 @@ a {
   .navbar-brand {
     padding-left: 20px !important;
   }
+  #homepage {
+    height: 2000px;
+  }
+  body {
+    height: 3000px;
+    background-image: none !important;
+    background-color:  #1f5a77;
+  }
   #list {
-    padding-left: 60px;
+    padding-left: 0px;
+    margin-bottom: 150px;
+  }
+  .vl {
+    margin-left: 0px;
+    height: 200px;
+    border-left: 6px solid ivory;
   }
   .card {
     margin-left: 30px;

@@ -14,11 +14,12 @@
 </head>
 
 <body>
+    <!-- Navigation -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
             <div class="container-fluid" id="navCorrect">
                 <a class="navbar-brand" href="#">Lee Templeton</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,58 +41,70 @@
         </nav>
     </header>
 
+    <!-- info about me -->
     <div class="container">
-        <section>
+        <section id="homepage">
             <div class="row">
-                <div class="col-lg-1"></div>
                 <div class="col-lg-8">
                     <h3 id="bannerTitle" class="text-left">Full Stack Web Developer</h3>
-                    <p id="bannerP" class="text-left">Recent graduate of the Monash Full Stack Bootcamp.</p>
-                    <p id="mainBannerP" class="text-left">I love to learn! I'm always
-                        learning something new from kayaking to acting. Which is why software is the perfect industry
-                        for me. Aside from my skills in leading edge tech, the most valuable assets I can bring to your company are my organizational, communication and time management skills.</p>
+                    <p id="mainBannerP" class="text-left">After recently completing Monash Universities Full Stack
+                        Bootcamp I’m well equipped for a career transition. I’ll bring with me skills of empathy,
+                        communication, time management and problem solving. I
+                        completed my Bachelor of Arts Degree at the University of Otago in 2004 and haven’t stopped
+                        learning since. There is always something new I'm learning from kayaking, acting, e commerce and
+                        technology.</p>
+
+                    <p id="mainBannerP" class="text-left">I’ve honed my Full Stack skill set working with javascript,
+                        node.js, React, MySQL, MongoDB and more. I enjoy responsive design and am confident using CSS
+                        libraries including Bootstrap and Materialize. I enjoy collaborating on projects, sharing
+                        knowledge and using version control systems. I love it when things work but I’m driven and
+                        resilient enough to keep at it and find an elegant solution when they’re not.</p>
+
+                    <p id="mainBannerP" class="text-left">I’m excited to share my passion for UX design and streamlining
+                        workflows with a quality
+                        driven company to make people's lives easier.</p>
+                    </p>
                     <p id="quoteP" class="left">“Once you stop learning you start dying”</p>
                     <p Id="referenceP" class="text-left">Albert Einstein</p>
                 </div>
-                <div class="col-lg-3">
+
+                <!-- contact details -->
+                <div class="col-lg-4">
                     <img src="assets\resize\headshot.jpg" id="imgHeadshot">
+                    <aside id="list">
+                        <div class="vl">
+                            <h5><a href="https://github.com/LeeKiri" target="_blank" title="Go to profile"><i
+                                        class="fab fa-github"></i> GitHub
+                                    Profile </a>
+                            </h5>
+                            <h5><a href="https://www.linkedin.com/in/lee-templeton-b0b1491ba" target="_blank"
+                                    title="Go to profile"><i class="fab fa-linkedin"></i> Linkden</a></h5>
+                            <h5><a href="assets/Resume-Fullstack.pdf" target="_blank" title="Go to profile"><i
+                                        class="fas fa-file"></i> Resume</a>
+                            </h5>
+                            <h5><a href="portfolio.html" target="_blank" title="Go to profile"><i
+                                        class="fas fa-code-branch"></i> Projects</a></h5>
+
+                            <h5><i class="fas fa-envelope"></i><a href="mailto:leekiritempleton@gmail.com"> leekiritempleton@gmail.com</a></h5>
+                            <h5><i class="fas fa-phone-square-alt"></i><a href="tel:+61423201885"> +61
+                                    423201885</a></h5>
+                        </div>
+                    </aside>
                 </div>
             </div>
-    </div>
-    </section>
-    </div>
+        </section>
 
-    <aside id="list">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="vl">
-                    <h5><a href="https://github.com/LeeKiri" target="_blank" title="Go to profile">GitHub Profile </a>
-                    </h5>
-                    <h5><a href="https://www.linkedin.com/in/lee-templeton-b0b1491ba" target="_blank"
-                            title="Go to profile">Linkden</a></h5>
-                    <h5><a href="https://github.com/LeeKiri" target="_blank" title="Go to profile">Resume</a></h5>
-                    <h5><a href="portfolio.html" target="_blank" title="Go to profile">Projects</a></h5>
-                </div>
+        <!-- footer  -->
+        <footer class="footer fixed-bottom" id="homeFooter">
+            <div class="card-footer bg-secondary footer-font-style footer-position" id="footer">
+                <h6 class="text-center text-light">&copy; Lee Templeton 2021</h6>
             </div>
-            <div class="col-lg-6">
-                <div class="vl" id="vltwo">
-                    <h5>Email leekiritempleton@gmail.com</h5>
-                    <h5>Phone +61 423201885</h5>
-                </div>
-            </div>
-            <div class="col-lg-4">
-            </div>
-    </aside>
-
-    <footer class="footer fixed-bottom">
-        <div class="card-footer bg-secondary footer-font-style footer-position" id="footer">
-            <h6 class="text-center text-light">&copy; Lee Templeton 2021</h6>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
+        </footer>
+        <!-- scripts -->
+        <script src="https://kit.fontawesome.com/55b8ef16f8.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
