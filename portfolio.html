@@ -41,17 +41,98 @@
         </nav>
     </header>
 
-    <!-- card one -->
 
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <!-- card burger -->
+
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/card-images/burger.jpg" class="card-img-top"
+                            alt="screenshot of online burger app">
+                        <div class="card-body">
+                            <h5 class="card-title">Eat-Da-Burger App</h5>
+                            <p class="card-text">This project is a restaurant app that lets users input the names of
+                                burgers they'd like to eat and devour them!</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#dailyPlanner" data-bs-name="Daily Planner" id="portfolioBtn">
+                                View More
+                            </button>
+                            <div class="modal fade" id="dailyPlanner" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Eat-Da-Burger App</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                id="portfolioBtn" aria-label="Close"></button>
+                                        </div>
+                                        <!-- modal burger -->
+                                        <div class="modal-body">
+                                            <p>In this project I use the MVC design pattern to create and interactive
+                                                app where users can log burgers. I wrote an ORM to query the database,
+                                                used handlebars to generate HTML and deployed the project to Heroku.
+                                            </p>
+                                            <h6>Usage</h6>
+                                            <ul>
+                                                <li>Model View Controller Design Pattern.
+
+                                                </li>
+                                                <li>Burgers are saved in the mysql database and updated when devoured.
+                                                </li>
+                                                <li>Front end and back end communicate via fetch API calls and express
+                                                    routes.
+                                                </li>
+                                                <li>CRUD best practices followed.
+                                                </li>
+                                                <li>HTML generated with Handlebars using Bootstrap column system design.
+                                                </li>
+                                                <li>Deployed to Heroku using JAWSDB
+                                                </li>
+                                            </ul>
+                                            <h6>Functionality</h6>
+                                            <ul style="list-style-type:none;">
+                                                <li>JavaScript</li>
+                                                <li>Node.js</li>
+                                                <li>MySQL</li>
+                                                <li>Heroku & JAWSDB</li>
+                                                <li>Express</li>
+                                                <li>Handlebars</li>
+                                                <li>GitHub</li>
+                                                <li>CSS/Bootstrap</li>
+                                            </ul>
+                                            <h6><a href="https://github.com/LeeKiri/handlebars-burger" target="_blank"
+                                                    title="Go to profile" id="modalLink"><i class="fab fa-github"></i>
+                                                    Github
+                                                    Repository</a></h6>
+                                            <h6><a href="https://burger-leekiri.herokuapp.com/" target="_blank"
+                                                    title="Go to profile" id="modalLink"><i class="fas fa-eye"></i>
+                                                    Visit
+                                                    Project</a></h6>
+                                            <br>
+                                            <img src="assets/screenshots/eatdabur.PNG" class="mw-100">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary" id="portfolioBtn"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card reboot -->
+
+                <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/card-images/flinders.jpg" class="card-img-top" alt="project screenshot">
                         <div class="card-body">
                             <h5 class="card-title">Melbourne Reboot Project</h5>
-                            <p class="card-text">An app to help locals rediscover their local community and boost
+                            <p class="card-text">An app to help locals rediscover their local
+                                community and boost
                                 Melbournes
                                 economy post Covid19 lockdown.</p>
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
@@ -60,7 +141,7 @@
                                 View More
                             </button>
 
-                            <!-- modal one -->
+                            <!-- modal reboot-->
 
                             <div class="modal fade" id="modalMelbourneReboot" data-bs-backdrop="static"
                                 data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
@@ -68,28 +149,35 @@
                                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="staticBackdropLabel">Melbourne Reboot</h5>
+                                            <h5 class="modal-title" id="staticBackdropLabel">
+                                                Melbourne Reboot</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 id="portfolioBtn" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Reboot Melbourne is a website for users to rediscover their local
+                                            <p>Reboot Melbourne is a website for users to
+                                                rediscover their local
                                                 community.
-                                                This was a group project in which we collaborated using GitHub,
+                                                This was a group project in which we
+                                                collaborated using GitHub,
                                                 Trello
                                                 and
                                                 Figma.
                                             </p>
                                             <h6>Usage</h6>
                                             <ul>
-                                                <li>The user enters their search criteria including; suburb, Km
+                                                <li>The user enters their search criteria
+                                                    including; suburb, Km
                                                     radius
                                                     and
-                                                    checks boxes for the type of activity they seek.</li>
-                                                <li>When the user hits the search button they are presented with 10
+                                                    checks boxes for the type of activity they
+                                                    seek.</li>
+                                                <li>When the user hits the search button they
+                                                    are presented with 10
                                                     options
                                                     in their local community.</li>
-                                                <li>The user can enter their login details to save favourite places
+                                                <li>The user can enter their login details to
+                                                    save favourite places
                                                     and
                                                     view
                                                     them later.</li>
@@ -108,7 +196,8 @@
                                                     Github Repository</a></h6>
 
                                             <h6><a href="https://h-mai.github.io/APIproject/index.html" target="_blank"
-                                                    title="Go to profile" id="modalLink"><i class="fas fa-eye"></i> Visit
+                                                    title="Go to profile" id="modalLink"><i class="fas fa-eye"></i>
+                                                    Visit
                                                     Project</a></h6>
                                             <h6>Responsive Mobile First Design</h6>
                                             <img src="assets/screenshots/reb-m.PNG" class="mw-100">
@@ -125,47 +214,57 @@
                     </div>
                 </div>
 
-                <!-- card two -->
+                <!-- card planner -->
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/card-images/laptop.jpg" class="card-img-top" alt="daily planner screenshot">
                         <div class="card-body">
                             <h5 class="card-title">Javascript Quiz</h5>
-                            <p class="card-text">A timed multiple choice quiz about javascript.</p>
+                            <p class="card-text">A timed multiple choice quiz about javascript.
+                            </p>
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#modalQuiz" id="portfolioBtn" data-bs-name="JavaScript Quiz">
                                 View More
                             </button>
 
-                            <!-- modal two -->
+                            <!-- modal planner -->
 
                             <div class="modal fade" id="modalQuiz" data-bs-backdrop="static" data-bs-keyboard="false"
                                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="staticBackdropLabel">Javascript Quiz</h5>
+                                            <h5 class="modal-title" id="staticBackdropLabel">
+                                                Javascript Quiz</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 id="portfolioBtn" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>This is a timed multiple choice quiz about JavaScript.
+                                            <p>This is a timed multiple choice quiz about
+                                                JavaScript.
                                             </p>
                                             <h6>Usage</h6>
                                             <ul>
-                                                <li>The quiz starts when you click the start button. It opens a set
+                                                <li>The quiz starts when you click the start
+                                                    button. It opens a set
                                                     of
-                                                    multiple choice questions and starts a timer.</li>
-                                                <li>When you select an answer by clicking the button it shows you
+                                                    multiple choice questions and starts a
+                                                    timer.</li>
+                                                <li>When you select an answer by clicking the
+                                                    button it shows you
                                                     the
                                                     next
-                                                    question until the quiz is finished. Correct answers get 5
-                                                    points, incorrect answers loose 10 seconds off the timer.</li>
-                                                <li>You can save your initials and score to the High Scores page
+                                                    question until the quiz is finished. Correct
+                                                    answers get 5
+                                                    points, incorrect answers loose 10 seconds
+                                                    off the timer.</li>
+                                                <li>You can save your initials and score to the
+                                                    High Scores page
                                                     then
                                                     click
-                                                    the button to clear all high scores or take the quiz again.</li>
+                                                    the button to clear all high scores or take
+                                                    the quiz again.</li>
                                             </ul>
                                             <h6>Functionality</h6>
                                             <ul style="list-style-type:none;">
@@ -178,13 +277,15 @@
                                             </ul>
                                             <h6><a href="https://github.com/LeeKiri/javascript-quiz-local-storage"
                                                     target="_blank" title="Go to profile" id="modalLink"><i
-                                                        class="fab fa-github"></i> Github
+                                                        class="fab fa-github"></i>
+                                                    Github
                                                     Repository</a></h6>
 
                                             <h6><a href="https://leekiri.github.io/javascript-quiz-local-storage/"
-                                                    target="_blank" title="Go to profile" id="modalLink"><i class="fas fa-eye"></i>
+                                                    target="_blank" title="Go to profile" id="modalLink"><i
+                                                        class="fas fa-eye"></i>
 
-                                                     Visit
+                                                    Visit
                                                     Project</a></h6>
                                             <h6>Responsive Mobile First Design</h6>
                                             <img src="assets/screenshots/quiz-md.png" class="mw-100">
@@ -201,9 +302,9 @@
                     </div>
                 </div>
 
-                <!-- card three -->
+                <!-- card quiz -->
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/card-images/planner.jpg" class="card-img-top" alt="screenshot of online quiz">
                         <div class="card-body">
@@ -218,33 +319,40 @@
                                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="staticBackdropLabel">Work Day Scheduler</h5>
+                                            <h5 class="modal-title" id="staticBackdropLabel">
+                                                Work Day Scheduler</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 id="portfolioBtn" aria-label="Close"></button>
                                         </div>
 
-                                        <!-- modal three -->
+                                        <!-- modal quiz -->
 
                                         <div class="modal-body">
-                                            <p>This is a work day scheduler where the user can add appointments
+                                            <p>This is a work day scheduler where the user can
+                                                add appointments
                                                 to
                                                 their
-                                                calendar and save them to view throughout the day.
+                                                calendar and save them to view throughout the
+                                                day.
                                             </p>
                                             <h6>Usage</h6>
                                             <ul>
-                                                <li>Each appointment is saved in local storage as the user
+                                                <li>Each appointment is saved in local storage
+                                                    as the user
                                                     clicks
                                                     the
                                                     calendar icon.
-                                                    When the page reloads the appointments remain displayed
+                                                    When the page reloads the appointments
+                                                    remain displayed
                                                     onscreen.
                                                 </li>
-                                                <li>moment.js is used to display the current time and date at
+                                                <li>moment.js is used to display the current
+                                                    time and date at
                                                     the
                                                     top of
                                                     the page</li>
-                                                <li>The appointment field changes color if it's in the past,
+                                                <li>The appointment field changes color if it's
+                                                    in the past,
                                                     present
                                                     or
                                                     future</li>
@@ -267,7 +375,7 @@
                                             <h6><a href="https://leekiri.github.io/day-planner-jquery/" target="_blank"
                                                     title="Go to profile" id="modalLink"><i class="fas fa-eye"></i>
 
-                                                     Visit
+                                                    Visit
                                                     Project</a></h6>
                                             <h6>Responsive Mobile First Design</h6>
                                             <img src="assets/screenshots/planner-m.png" class="mw-100">
@@ -284,6 +392,9 @@
                     </div>
                 </div>
             </div>
+
+
+
         </div>
     </main>
 
