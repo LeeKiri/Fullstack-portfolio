@@ -136,41 +136,6 @@ body{
   padding: 3px;
 }
 
-/* contact page */
-
-#contactForm {
-  color: ivory;
-  height: 350px;
-  background-color: #154963;
-  padding: 50px 20px;
-  font-size: large;
-  font-family: "Noto Serif", serif;
-  font-weight: 500;
-  background-image: linear-gradient(to top right, #1f5a77, #90afc5);
-}
-#emailBtn {
-  background-color: #154963 !important;
-  border: #154963 !important;
-}
-#emailBtn:hover {
-  background-color: #63a6d6 !important;
-}
-.contactCol {
-  max-width: 100%;
-  margin: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.imgCol {
-  height: 350px;
-  padding: 0;
-}
-.imgCol img {
-  height: 350px;
-  max-width: 100%;
-  opacity: 50%;
-}
-
 /* media queries */
 
 @media screen and (max-width: 768px) {
@@ -245,6 +210,9 @@ body{
   }
   #contactForm {
     height: 375px;
+  }
+  .row>* {
+  padding-left: 0px !important;
   }
 }
 @media screen and (min-width: 540px) {
