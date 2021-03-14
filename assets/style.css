@@ -36,22 +36,13 @@ body {
   letter-spacing: 0.1rem;
   margin-left: 20px;
 }
-#bannerP {
-  margin-left: 20px;
-  color: ivory;
-  font-family: "Noto Serif", serif;
-  font-size: large;
-  align-items: center;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-}
 #mainBannerP {
   margin-left: 20px;
   color: ivory;
   font-family: "Noto Serif", serif;
   font-size: medium;
   align-items: center;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.1rem;
   line-height: 1.6;
 }
@@ -94,8 +85,8 @@ a {
   color: ivory;
 }
 .vl {
-  border-left: 6px solid #96cde9;
-  height: 200px;
+  border-left: 6px solid ivory;
+  height: 190px;
   margin-left: 20px;
 }
 #homeFooter {
