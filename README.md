@@ -1,15 +1,13 @@
-# Fullstack-portfolio
-This is my professional portfolio. 
+# Full Stack Web Development Portfolio
+This is my professional portfolio showcasing my skillset through projects. 
 
 ## Description
-Users can read all about me on the homepage and select hyperlinks to view my Linkdin profile, Github, a PDF resume and contact details. 
+Users can read all about me on the homepage and select hyperlinks to view my Linkedin profile, Github, a PDF resume and contact details. 
 
 ## Design
-I've used Html, Bootstrap, Javascript, CSS and fontawesome icons.
+I've used HTML, Bootstrap, Javascript, CSS and fontawesome icons.
 
-* On the portfolio page users can explore each project by clicking the 'View More' button and a modal appears with deatils and hyperlinks to the repo and the deployed project.
-
-* On the contact page users can send me an email through their default mail program using the mailto link.
+* On the portfolio page users can explore each project by clicking the 'View More' button and a modal appears with details and hyperlinks to the repo and the deployed project.
 
 * Responsive Design. 
 
@@ -19,7 +17,22 @@ https://leekiri.github.io/Fullstack-portfolio/
 https://github.com/LeeKiri/Fullstack-portfolio
 
 ### Screenshots
-![port-l](https://user-images.githubusercontent.com/73642462/104859577-88be7f00-597a-11eb-9430-7e42cadee507.PNG)
-![port-m](https://user-images.githubusercontent.com/73642462/104859579-8c520600-597a-11eb-9817-f76c14835906.PNG)
-![port-modal](https://user-images.githubusercontent.com/73642462/104859585-8fe58d00-597a-11eb-9471-22e7789fdb8d.PNG)
-![port-md](https://user-images.githubusercontent.com/73642462/104859588-93791400-597a-11eb-8488-933f879ad92b.PNG)
+Large Screen View- Home Page
+
+![port2](https://user-images.githubusercontent.com/73642462/111426356-aaed3700-8748-11eb-96a3-3acb5bfe1d3d.PNG)
+
+Medium Screen View- Home Page featuring skillset tech icons
+
+![port8](https://user-images.githubusercontent.com/73642462/111426447-c7896f00-8748-11eb-9f44-456a552bac62.PNG)
+
+Small Screen View- Project Page
+
+![port6](https://user-images.githubusercontent.com/73642462/111426459-c9ebc900-8748-11eb-9544-b2b729aa6141.PNG)
+
+Medium Screen View- Portfolio Page
+
+![port7](https://user-images.githubusercontent.com/73642462/111426460-c9ebc900-8748-11eb-822a-372f44de5839.PNG)
+
+Portfolio Page Modal
+
+![port-modal](https://user-images.githubusercontent.com/73642462/111426453-c8ba9c00-8748-11eb-8d27-a8d54ae2aa2e.PNG)
