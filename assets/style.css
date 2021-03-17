@@ -7,9 +7,6 @@ body {
   height: 840px;
   padding-bottom: 100px;
 }
-#homepage {
-  height: 820px;
-}
 #navbar {
   background-color: #2a3132 !important;
 }
@@ -69,12 +66,13 @@ body {
 }
 #list {
   clear: both;
-  padding-top: 100px;
+  padding-top: 70px;
   margin-left: 20px;
   color: ivory;
   font-size: 30px;
   font-family: "Asap", sans-serif;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 i {
   padding-left: 15px;
@@ -92,7 +90,14 @@ a {
 #homeFooter {
   padding-top: 20px;
 }
-
+.logo{
+  height: 100px;
+  background-color: ivory;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 30px;
+}
 /* portfolio page CSS */
 body{
   height:fit-content;
@@ -114,7 +119,14 @@ body{
   border: #154963 !important;
 }
 #portfolioBtn:hover {
-  background-color: #63a6d6 !important;
+  background-color: #336b87 !important;
+}
+.btn-close{
+  background-color: #154963 !important;
+  border: #154963 !important;
+}
+.btn-close:hover{
+  background-color: #336b87 !important;
 }
 #modalLink {
   color: black;
@@ -131,15 +143,9 @@ body{
 
 @media screen and (max-width: 768px) {
   body {
-    max-height: 1500px;
-  }
-  body {
     height: 3000px;
     background-image: none !important;
     background-color:  #1f5a77;
-  }
-  #homepage{
-      height: 1500px;
   }
   #imgHeadshot {
     float: none;
@@ -149,7 +155,7 @@ body{
     margin-top: 20px;
   }
   #list {
-    padding-left: 100px;
+    padding-left: 150px;
   }
   .vl {
     height: 200px;
@@ -173,9 +179,6 @@ body{
   .navbar-brand {
     padding-left: 20px !important;
   }
-  #homepage {
-    height: 2000px;
-  }
   body {
     height: 3000px;
     background-image: none !important;
@@ -183,7 +186,7 @@ body{
   }
   #list {
     padding-left: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
   }
   .vl {
     margin-left: 0px;
