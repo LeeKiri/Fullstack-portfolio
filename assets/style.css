@@ -87,6 +87,15 @@ a {
   height: 190px;
   margin-left: 20px;
 }
+.techTitle{
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: ivory;
+  letter-spacing: 0.1rem;
+  margin-left: 20px;
+  font-size: larger;
+}
 #homeFooter {
   padding-top: 20px;
 }
